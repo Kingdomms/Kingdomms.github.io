@@ -1,0 +1,77 @@
+<!-----Pagina de Contacto----->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <link rel="stylesheet" type="text/css" href="main style/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact</title>
+    <link rel="shortcut icon" href="assets/images/logo.png" />
+  </head>
+  <body>
+    <section class="BackArrow_Contact">
+      <a href="index.html"><ion-icon name="chevron-back-outline"></ion-icon></a>
+      <div class="container">
+        <form action="https://formsubmit.co/lhfloresr5@gmail.com" method="POST">
+          <h1>Contact</h1>
+          <cite>*Campos Requeridos</cite>
+          <!-- <input type="hidden" name="_next" value="thanks.html" /> -->
+          <input type="hidden" name="_cc" value="alamosalamun@gmail.com" />
+          <input
+            type="text"
+            name="Name"
+            maxlength="254"
+            required
+            placeholder="*Nombre Completo"
+          />
+          <input
+            type="email"
+            id="mail"
+            name="mail"
+            maxlength="254"
+            required
+            placeholder="*Correo Electrónico"
+          />
+          <input
+            type="tel"
+            id="phone"
+            name="Phone"
+            maxlength="15"
+            pattern="[+][0-9]{1,15}"
+            required
+            placeholder="*Número Telefónico (ingresa tu código de área y país) e.g. +1202555018"
+          />
+          <textarea
+            id="message"
+            name="Message"
+            maxlength="500"
+            rows="4"
+            placeholder="¿Cómo podemos ayudarte?"
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!----Scripts---->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
